@@ -1,0 +1,111 @@
+/* body para cambiar la letra y agregar fondo*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(../Assets/Fondogeneral.jpg);
+}
+
+/* tamaño de logo y centrar todos los h1*/
+header img{
+    width: 50%;
+}
+
+h1{
+    text-align: center;
+}
+
+.nav{
+    font-size: 2rem;
+    gap: 30px;
+
+}
+
+/* acomodar las imaganes de la pagina quienes somos y centrar las imaganes y los parrafos*/
+
+.galeria {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-container {
+    text-align: center;
+    width: 30%;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image-container p {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Configuracion general del main y el footer*/
+
+main {
+    margin: 40px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(219, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+}
+
+/* todo lo referido al card es relacionado los productos de las botellas alcoholicas y la pagina curso*/
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ec0000;
+}
+
+.card-img-top {
+
+    height: auto;
+    width: 100%;
+}
+
+/* configuracion general de los section que estan al principio*/
+
+.section-inicio {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.section-inicio ul {
+    list-style: none;
+}
+
+/* Configuracion general de la pagina de contacto*/
+
+.main-contacto{
+    font-size: 1.5rem;
+    color: #0b0b0b;
+    margin-bottom: 15px;
+}
+
+.parrafo-contacto{
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .footer-imagen {
+        width: 100%;
+    }
+}
